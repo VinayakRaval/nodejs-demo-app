@@ -16,14 +16,4 @@ app.get("/api/health", (req, res) => {
     });
 });
 
-// Export app for testing
 module.exports = app;
-
-// Start server only when app.js is run directly
-if (require.main === module) {
-    const PORT = process.env.PORT || 3000;
-
-    app.listen(PORT, () => {
-        console.log(`Elevate Labs website running on port ${PORT}`);
-    });
-}
