@@ -1,0 +1,23 @@
+{
+  "name": "nodejs-demo-app",
+  "version": "1.0.0",
+  "description": "Elevate Labs DevOps Internship - CI/CD Node.js Application",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "test": "node --test"
+  },
+  "keywords": [
+    "nodejs",
+    "express",
+    "devops",
+    "cicd",
+    "github-actions",
+    "docker"
+  ],
+  "author": "Vinayak Raval",
+  "license": "MIT",
+  "dependencies": {
+    "express": "^5.1.0"
+  }
+}

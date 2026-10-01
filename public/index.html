@@ -1,0 +1,1104 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <meta
+        name="description"
+        content="Explore Elevate Labs, its technology domains and internship opportunities."
+    >
+
+    <title>Elevate Labs | Internship & Technology</title>
+
+    <link rel="stylesheet" href="style.css">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+    <link
+        href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap"
+        rel="stylesheet"
+    >
+</head>
+
+<body>
+
+    <!-- SVG SPRITE -->
+    <svg
+        xmlns="http://www.w3.org/2000/svg"
+        style="display:none"
+    >
+        <symbol id="icon-arrow" viewBox="0 0 24 24">
+            <path d="M5 12h13M13 6l6 6-6 6"
+                  fill="none"
+                  stroke="currentColor"
+                  stroke-width="2"
+                  stroke-linecap="round"
+                  stroke-linejoin="round"/>
+        </symbol>
+
+        <symbol id="icon-code" viewBox="0 0 24 24">
+            <path d="m8 8-4 4 4 4M16 8l4 4-4 4M14 4l-4 16"
+                  fill="none"
+                  stroke="currentColor"
+                  stroke-width="1.8"
+                  stroke-linecap="round"
+                  stroke-linejoin="round"/>
+        </symbol>
+
+        <symbol id="icon-bulb" viewBox="0 0 24 24">
+            <path d="M9 18h6M10 22h4"
+                  fill="none"
+                  stroke="currentColor"
+                  stroke-width="1.8"
+                  stroke-linecap="round"/>
+            <path d="M8.5 15.5C7.3 14.5 6 12.8 6 10.5a6 6 0 0 1 12 0c0 2.3-1.3 4-2.5 5"
+                  fill="none"
+                  stroke="currentColor"
+                  stroke-width="1.8"
+                  stroke-linecap="round"/>
+        </symbol>
+
+        <symbol id="icon-target" viewBox="0 0 24 24">
+            <circle cx="12" cy="12" r="8"
+                    fill="none"
+                    stroke="currentColor"
+                    stroke-width="1.8"/>
+            <circle cx="12" cy="12" r="3"
+                    fill="none"
+                    stroke="currentColor"
+                    stroke-width="1.8"/>
+            <path d="m16 8 4-4M17 4h3v3"
+                  fill="none"
+                  stroke="currentColor"
+                  stroke-width="1.8"
+                  stroke-linecap="round"
+                  stroke-linejoin="round"/>
+        </symbol>
+
+        <symbol id="icon-chart" viewBox="0 0 24 24">
+            <path d="M4 19V5M4 19h16"
+                  fill="none"
+                  stroke="currentColor"
+                  stroke-width="1.8"
+                  stroke-linecap="round"/>
+            <path d="m7 15 4-4 3 2 5-6"
+                  fill="none"
+                  stroke="currentColor"
+                  stroke-width="1.8"
+                  stroke-linecap="round"
+                  stroke-linejoin="round"/>
+        </symbol>
+
+        <symbol id="icon-shield" viewBox="0 0 24 24">
+            <path d="M12 3 20 6v5c0 5-3.2 8.5-8 10-4.8-1.5-8-5-8-10V6l8-3Z"
+                  fill="none"
+                  stroke="currentColor"
+                  stroke-width="1.8"
+                  stroke-linejoin="round"/>
+            <path d="m9 12 2 2 4-5"
+                  fill="none"
+                  stroke="currentColor"
+                  stroke-width="1.8"
+                  stroke-linecap="round"
+                  stroke-linejoin="round"/>
+        </symbol>
+
+        <symbol id="icon-ai" viewBox="0 0 24 24">
+            <rect x="6" y="6" width="12" height="12" rx="2"
+                  fill="none"
+                  stroke="currentColor"
+                  stroke-width="1.8"/>
+            <path d="M9 2v4M15 2v4M9 18v4M15 18v4M2 9h4M2 15h4M18 9h4M18 15h4"
+                  fill="none"
+                  stroke="currentColor"
+                  stroke-width="1.8"
+                  stroke-linecap="round"/>
+            <circle cx="10" cy="11" r="1"
+                    fill="currentColor"/>
+            <circle cx="14" cy="11" r="1"
+                    fill="currentColor"/>
+            <path d="M9 14c1.5 1 4.5 1 6 0"
+                  fill="none"
+                  stroke="currentColor"
+                  stroke-width="1.5"
+                  stroke-linecap="round"/>
+        </symbol>
+
+        <symbol id="icon-web" viewBox="0 0 24 24">
+            <circle cx="12" cy="12" r="9"
+                    fill="none"
+                    stroke="currentColor"
+                    stroke-width="1.8"/>
+            <path d="M3 12h18M12 3c3 3 4 6 4 9s-1 6-4 9c-3-3-4-6-4-9s1-6 4-9Z"
+                  fill="none"
+                  stroke="currentColor"
+                  stroke-width="1.5"
+                  stroke-linejoin="round"/>
+        </symbol>
+
+        <symbol id="icon-python" viewBox="0 0 24 24">
+            <path d="M12 3c-3 0-4 1.2-4 3v2h4v1H7c-2 0-4 1.3-4 4s2 4 4 4h2v-3c0-1.7 1.3-3 3-3h4V6c0-1.8-1.5-3-4-3Z"
+                  fill="none"
+                  stroke="currentColor"
+                  stroke-width="1.6"
+                  stroke-linejoin="round"/>
+            <path d="M12 21c3 0 4-1.2 4-3v-2h-4v-1h5c2 0 4-1.3 4-4s-2-4-4-4h-2v3c0 1.7-1.3 3-3 3H8v4c0 1.8 1.5 3 4 3Z"
+                  fill="none"
+                  stroke="currentColor"
+                  stroke-width="1.6"
+                  stroke-linejoin="round"/>
+        </symbol>
+
+        <symbol id="icon-cloud" viewBox="0 0 24 24">
+            <path d="M7 18h10a4 4 0 0 0 .7-7.9A6 6 0 0 0 6.2 9.5 4.3 4.3 0 0 0 7 18Z"
+                  fill="none"
+                  stroke="currentColor"
+                  stroke-width="1.8"
+                  stroke-linejoin="round"/>
+        </symbol>
+
+        <symbol id="icon-database" viewBox="0 0 24 24">
+            <ellipse cx="12" cy="5" rx="7" ry="3"
+                     fill="none"
+                     stroke="currentColor"
+                     stroke-width="1.8"/>
+            <path d="M5 5v7c0 1.7 3.1 3 7 3s7-1.3 7-3V5M5 12v7c0 1.7 3.1 3 7 3s7-1.3 7-3v-7"
+                  fill="none"
+                  stroke="currentColor"
+                  stroke-width="1.8"/>
+        </symbol>
+
+        <symbol id="icon-menu" viewBox="0 0 24 24">
+            <path d="M4 7h16M4 12h16M4 17h16"
+                  fill="none"
+                  stroke="currentColor"
+                  stroke-width="2"
+                  stroke-linecap="round"/>
+        </symbol>
+
+        <symbol id="icon-globe" viewBox="0 0 24 24">
+            <circle cx="12" cy="12" r="9"
+                    fill="none"
+                    stroke="currentColor"
+                    stroke-width="1.8"/>
+            <path d="M3 12h18M12 3c3 3 4 6 4 9s-1 6-4 9c-3-3-4-6-4-9s1-6 4-9Z"
+                  fill="none"
+                  stroke="currentColor"
+                  stroke-width="1.5"/>
+        </symbol>
+
+        <symbol id="icon-book" viewBox="0 0 24 24">
+            <path d="M4 5a3 3 0 0 1 3-2h12v17H7a3 3 0 0 0-3 3V5Z"
+                  fill="none"
+                  stroke="currentColor"
+                  stroke-width="1.8"
+                  stroke-linejoin="round"/>
+            <path d="M4 20a3 3 0 0 1 3-3h12"
+                  fill="none"
+                  stroke="currentColor"
+                  stroke-width="1.8"/>
+        </symbol>
+
+        <symbol id="icon-briefcase" viewBox="0 0 24 24">
+            <rect x="3" y="7" width="18" height="13" rx="2"
+                  fill="none"
+                  stroke="currentColor"
+                  stroke-width="1.8"/>
+            <path d="M8 7V5a2 2 0 0 1 2-2h4a2 2 0 0 1 2 2v2M3 12h18M10 12v2h4v-2"
+                  fill="none"
+                  stroke="currentColor"
+                  stroke-width="1.8"
+                  stroke-linejoin="round"/>
+        </symbol>
+    </svg>
+
+
+    <!-- NAVBAR -->
+
+    <header class="navbar">
+
+        <div class="nav-container">
+
+            <a href="#home" class="logo">
+                <span class="logo-mark">E</span>
+                <span>Elevate<span>Labs</span></span>
+            </a>
+
+            <nav id="navMenu">
+                <a href="#home">Home</a>
+                <a href="#about">About</a>
+                <a href="#domains">Domains</a>
+                <a href="#internships">Internships</a>
+                <a href="#journey">Journey</a>
+                <a href="#contact">Contact</a>
+            </nav>
+
+            <a
+                href="https://elevatelabs.in/apply-for-internship/"
+                target="_blank"
+                rel="noopener noreferrer"
+                class="nav-button"
+            >
+                Apply for Internship
+            </a>
+
+            <button
+                class="menu-button"
+                id="menuButton"
+                aria-label="Open navigation"
+            >
+                <svg>
+                    <use href="#icon-menu"></use>
+                </svg>
+            </button>
+
+        </div>
+
+    </header>
+
+
+    <main>
+
+        <!-- HERO -->
+
+        <section class="hero" id="home">
+
+            <div class="hero-background"></div>
+
+            <div class="hero-container">
+
+                <div class="hero-content">
+
+                    <div class="badge">
+                        <span class="badge-icon">
+                            <svg>
+                                <use href="#icon-code"></use>
+                            </svg>
+                        </span>
+
+                        Technology • Learning • Innovation
+                    </div>
+
+                    <h1>
+                        Elevate Your
+                        <span>Skills & Career</span>
+                    </h1>
+
+                    <p>
+                        Explore technology-focused learning and internship
+                        opportunities designed to help students build practical
+                        skills through projects and hands-on experience.
+                    </p>
+
+                    <div class="hero-buttons">
+
+                        <a
+                            href="https://elevatelabs.in/apply-for-internship/"
+                            target="_blank"
+                            rel="noopener noreferrer"
+                            class="primary-button"
+                        >
+                            Apply for Internship
+
+                            <svg>
+                                <use href="#icon-arrow"></use>
+                            </svg>
+                        </a>
+
+                        <a
+                            href="#about"
+                            class="secondary-button"
+                        >
+                            Discover More
+                        </a>
+
+                    </div>
+
+                    <div class="hero-trust">
+
+                        <div>
+                            <strong>8+</strong>
+                            <span>Featured Domains</span>
+                        </div>
+
+                        <div>
+                            <strong>01</strong>
+                            <span>Learning Journey</span>
+                        </div>
+
+                        <div>
+                            <strong>24/7</strong>
+                            <span>Online Access</span>
+                        </div>
+
+                    </div>
+
+                </div>
+
+
+                <div class="hero-visual">
+
+                    <div class="glow"></div>
+
+                    <div class="dashboard-card">
+
+                        <div class="dashboard-top">
+                            <span class="status-dot"></span>
+                            <span>Learning Dashboard</span>
+                        </div>
+
+                        <div class="dashboard-title">
+                            Build. Learn. Elevate.
+                        </div>
+
+                        <div class="progress-box">
+
+                            <div class="progress-header">
+                                <span>Technology Skills</span>
+                                <strong>85%</strong>
+                            </div>
+
+                            <div class="progress">
+                                <span></span>
+                            </div>
+
+                        </div>
+
+                        <div class="mini-cards">
+
+                            <div>
+                                <span>01</span>
+                                <p>Learn</p>
+                            </div>
+
+                            <div>
+                                <span>02</span>
+                                <p>Build</p>
+                            </div>
+
+                            <div>
+                                <span>03</span>
+                                <p>Grow</p>
+                            </div>
+
+                        </div>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+        </section>
+
+
+        <!-- ABOUT -->
+
+        <section class="section about" id="about">
+
+            <div class="section-heading">
+
+                <span class="section-label">
+                    ABOUT ELEVATE LABS
+                </span>
+
+                <h2>
+                    Learn technology by
+                    <span>building.</span>
+                </h2>
+
+                <p>
+                    This project provides an informational overview of
+                    Elevate Labs, its technology-focused internship areas
+                    and the learning journey associated with them.
+                </p>
+
+            </div>
+
+
+            <div class="about-grid">
+
+                <div class="about-card featured">
+
+                    <div class="card-icon">
+                        <svg>
+                            <use href="#icon-code"></use>
+                        </svg>
+                    </div>
+
+                    <h3>Practical Learning</h3>
+
+                    <p>
+                        Explore technology concepts through practical,
+                        project-oriented learning experiences.
+                    </p>
+
+                </div>
+
+
+                <div class="about-card">
+
+                    <div class="card-icon">
+                        <svg>
+                            <use href="#icon-bulb"></use>
+                        </svg>
+                    </div>
+
+                    <h3>Innovation</h3>
+
+                    <p>
+                        Explore modern technology areas and develop
+                        solutions through hands-on experimentation.
+                    </p>
+
+                </div>
+
+
+                <div class="about-card">
+
+                    <div class="card-icon">
+                        <svg>
+                            <use href="#icon-target"></use>
+                        </svg>
+                    </div>
+
+                    <h3>Career Growth</h3>
+
+                    <p>
+                        Build technical knowledge and project experience
+                        that can support your professional journey.
+                    </p>
+
+                </div>
+
+            </div>
+
+        </section>
+
+
+        <!-- DOMAINS -->
+
+        <section class="section domains" id="domains">
+
+            <div class="section-heading">
+
+                <span class="section-label">
+                    TECHNOLOGY DOMAINS
+                </span>
+
+                <h2>
+                    Explore your
+                    <span>area of interest.</span>
+                </h2>
+
+                <p>
+                    Explore the technology areas presented in the
+                    Elevate Labs internship information.
+                </p>
+
+            </div>
+
+
+            <div class="domain-grid">
+
+                <article class="domain-card">
+                    <div class="domain-number">01</div>
+
+                    <div class="domain-icon">
+                        <svg>
+                            <use href="#icon-chart"></use>
+                        </svg>
+                    </div>
+
+                    <h3>Data Analyst</h3>
+
+                    <p>
+                        Explore data analysis and insight-driven
+                        technology workflows.
+                    </p>
+
+                    <span class="domain-arrow">
+                        <svg>
+                            <use href="#icon-arrow"></use>
+                        </svg>
+                    </span>
+                </article>
+
+
+                <article class="domain-card">
+                    <div class="domain-number">02</div>
+
+                    <div class="domain-icon">
+                        <svg>
+                            <use href="#icon-shield"></use>
+                        </svg>
+                    </div>
+
+                    <h3>Cyber Security</h3>
+
+                    <p>
+                        Explore security concepts and secure
+                        technology practices.
+                    </p>
+
+                    <span class="domain-arrow">
+                        <svg>
+                            <use href="#icon-arrow"></use>
+                        </svg>
+                    </span>
+                </article>
+
+
+                <article class="domain-card">
+                    <div class="domain-number">03</div>
+
+                    <div class="domain-icon">
+                        <svg>
+                            <use href="#icon-ai"></use>
+                        </svg>
+                    </div>
+
+                    <h3>AI / ML</h3>
+
+                    <p>
+                        Explore artificial intelligence and
+                        machine learning concepts.
+                    </p>
+
+                    <span class="domain-arrow">
+                        <svg>
+                            <use href="#icon-arrow"></use>
+                        </svg>
+                    </span>
+                </article>
+
+
+                <article class="domain-card">
+                    <div class="domain-number">04</div>
+
+                    <div class="domain-icon">
+                        <svg>
+                            <use href="#icon-web"></use>
+                        </svg>
+                    </div>
+
+                    <h3>Web Development</h3>
+
+                    <p>
+                        Build modern web applications using
+                        frontend and backend technologies.
+                    </p>
+
+                    <span class="domain-arrow">
+                        <svg>
+                            <use href="#icon-arrow"></use>
+                        </svg>
+                    </span>
+                </article>
+
+
+                <article class="domain-card">
+                    <div class="domain-number">05</div>
+
+                    <div class="domain-icon">
+                        <svg>
+                            <use href="#icon-python"></use>
+                        </svg>
+                    </div>
+
+                    <h3>Python</h3>
+
+                    <p>
+                        Develop applications and automation
+                        solutions using Python.
+                    </p>
+
+                    <span class="domain-arrow">
+                        <svg>
+                            <use href="#icon-arrow"></use>
+                        </svg>
+                    </span>
+                </article>
+
+
+                <article class="domain-card">
+                    <div class="domain-number">06</div>
+
+                    <div class="domain-icon">
+                        <svg>
+                            <use href="#icon-cloud"></use>
+                        </svg>
+                    </div>
+
+                    <h3>DevOps</h3>
+
+                    <p>
+                        Explore CI/CD, containers, cloud
+                        technologies and deployment workflows.
+                    </p>
+
+                    <span class="domain-arrow">
+                        <svg>
+                            <use href="#icon-arrow"></use>
+                        </svg>
+                    </span>
+                </article>
+
+
+                <article class="domain-card">
+                    <div class="domain-number">07</div>
+
+                    <div class="domain-icon">
+                        <svg>
+                            <use href="#icon-code"></use>
+                        </svg>
+                    </div>
+
+                    <h3>Java</h3>
+
+                    <p>
+                        Explore software development using
+                        Java and object-oriented programming.
+                    </p>
+
+                    <span class="domain-arrow">
+                        <svg>
+                            <use href="#icon-arrow"></use>
+                        </svg>
+                    </span>
+                </article>
+
+
+                <article class="domain-card">
+                    <div class="domain-number">08</div>
+
+                    <div class="domain-icon">
+                        <svg>
+                            <use href="#icon-database"></use>
+                        </svg>
+                    </div>
+
+                    <h3>SQL</h3>
+
+                    <p>
+                        Explore relational databases, queries
+                        and data-management concepts.
+                    </p>
+
+                    <span class="domain-arrow">
+                        <svg>
+                            <use href="#icon-arrow"></use>
+                        </svg>
+                    </span>
+                </article>
+
+            </div>
+
+        </section>
+
+
+        <!-- INTERNSHIPS -->
+
+        <section class="section internships" id="internships">
+
+            <div class="section-heading">
+
+                <span class="section-label">
+                    INTERNSHIP PROGRAMS
+                </span>
+
+                <h2>
+                    Turn knowledge into
+                    <span>experience.</span>
+                </h2>
+
+                <p>
+                    Explore internship-oriented learning across
+                    multiple technology domains.
+                </p>
+
+            </div>
+
+
+            <div class="internship-wrapper">
+
+                <div class="internship-main">
+
+                    <span class="program-tag">
+                        DEVOPS PROGRAM
+                    </span>
+
+                    <h3>
+                        Build, automate and deploy
+                        modern applications.
+                    </h3>
+
+                    <p>
+                        Explore version control, continuous integration,
+                        continuous deployment, containers, cloud platforms
+                        and deployment automation.
+                    </p>
+
+                    <div class="technology-list">
+                        <span>Git</span>
+                        <span>GitHub</span>
+                        <span>GitHub Actions</span>
+                        <span>Docker</span>
+                        <span>CI/CD</span>
+                        <span>Cloud</span>
+                    </div>
+
+                    <a
+                        href="https://elevatelabs.in/apply-for-internship/"
+                        target="_blank"
+                        rel="noopener noreferrer"
+                        class="primary-button program-button"
+                    >
+                        Apply for Internship
+
+                        <svg>
+                            <use href="#icon-arrow"></use>
+                        </svg>
+                    </a>
+
+                </div>
+
+
+                <div class="program-list">
+
+                    <div class="program-item">
+                        <span>01</span>
+                        <strong>Data Analyst</strong>
+                        <small>Data & Insights</small>
+                    </div>
+
+                    <div class="program-item">
+                        <span>02</span>
+                        <strong>Cyber Security</strong>
+                        <small>Security & Protection</small>
+                    </div>
+
+                    <div class="program-item">
+                        <span>03</span>
+                        <strong>AI / ML</strong>
+                        <small>Artificial Intelligence</small>
+                    </div>
+
+                    <div class="program-item">
+                        <span>04</span>
+                        <strong>Web Development</strong>
+                        <small>Web Technologies</small>
+                    </div>
+
+                    <div class="program-item">
+                        <span>05</span>
+                        <strong>Python</strong>
+                        <small>Programming</small>
+                    </div>
+
+                    <div class="program-item">
+                        <span>06</span>
+                        <strong>DevOps</strong>
+                        <small>Cloud & Automation</small>
+                    </div>
+
+                </div>
+
+            </div>
+
+        </section>
+
+
+        <!-- JOURNEY -->
+
+        <section class="section journey" id="journey">
+
+            <div class="section-heading">
+
+                <span class="section-label">
+                    LEARNING JOURNEY
+                </span>
+
+                <h2>
+                    From application to
+                    <span>experience.</span>
+                </h2>
+
+            </div>
+
+
+            <div class="timeline">
+
+                <div class="timeline-item">
+
+                    <div class="timeline-number">01</div>
+
+                    <div>
+                        <h3>Apply</h3>
+
+                        <p>
+                            Explore available opportunities and
+                            apply for a suitable technology domain.
+                        </p>
+                    </div>
+
+                </div>
+
+
+                <div class="timeline-item">
+
+                    <div class="timeline-number">02</div>
+
+                    <div>
+                        <h3>Select Your Domain</h3>
+
+                        <p>
+                            Choose a technology area that matches
+                            your interests and career goals.
+                        </p>
+                    </div>
+
+                </div>
+
+
+                <div class="timeline-item">
+
+                    <div class="timeline-number">03</div>
+
+                    <div>
+                        <h3>Build Projects</h3>
+
+                        <p>
+                            Apply your knowledge through practical
+                            tasks and project work.
+                        </p>
+                    </div>
+
+                </div>
+
+
+                <div class="timeline-item">
+
+                    <div class="timeline-number">04</div>
+
+                    <div>
+                        <h3>Grow Your Profile</h3>
+
+                        <p>
+                            Document your work and use your project
+                            experience as part of your professional portfolio.
+                        </p>
+                    </div>
+
+                </div>
+
+            </div>
+
+        </section>
+
+
+        <!-- CTA -->
+
+        <section class="cta">
+
+            <div>
+
+                <span class="section-label">
+                    START YOUR JOURNEY
+                </span>
+
+                <h2>
+                    Ready to elevate
+                    <span>your skills?</span>
+                </h2>
+
+                <p>
+                    Explore technology, build projects and keep learning.
+                </p>
+
+                <a
+                    href="https://elevatelabs.in/apply-for-internship/"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    class="primary-button"
+                >
+                    Apply for Internship
+
+                    <svg>
+                        <use href="#icon-arrow"></use>
+                    </svg>
+                </a>
+
+            </div>
+
+        </section>
+
+
+        <!-- CONTACT -->
+
+        <section class="section contact" id="contact">
+
+            <div class="section-heading">
+
+                <span class="section-label">
+                    OFFICIAL RESOURCES
+                </span>
+
+                <h2>
+                    Explore the
+                    <span>official channels.</span>
+                </h2>
+
+                <p>
+                    Use the official Elevate Labs website for current
+                    internship information and applications.
+                </p>
+
+            </div>
+
+
+            <div class="contact-grid">
+
+                <a
+                    href="https://elevatelabs.in/"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    class="contact-card"
+                >
+
+                    <span class="contact-icon">
+                        <svg>
+                            <use href="#icon-globe"></use>
+                        </svg>
+                    </span>
+
+                    <div>
+                        <small>OFFICIAL WEBSITE</small>
+                        <strong>elevatelabs.in</strong>
+                    </div>
+
+                    <b>
+                        <svg>
+                            <use href="#icon-arrow"></use>
+                        </svg>
+                    </b>
+
+                </a>
+
+
+                <a
+                    href="https://elevatelabs.in/apply-for-internship/"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    class="contact-card"
+                >
+
+                    <span class="contact-icon">
+                        <svg>
+                            <use href="#icon-book"></use>
+                        </svg>
+                    </span>
+
+                    <div>
+                        <small>INTERNSHIP</small>
+                        <strong>Apply for Internship</strong>
+                    </div>
+
+                    <b>
+                        <svg>
+                            <use href="#icon-arrow"></use>
+                        </svg>
+                    </b>
+
+                </a>
+
+
+                <a
+                    href="https://elevatelabs.in/apply-for-internship/"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    class="contact-card"
+                >
+
+                    <span class="contact-icon">
+                        <svg>
+                            <use href="#icon-briefcase"></use>
+                        </svg>
+                    </span>
+
+                    <div>
+                        <small>CAREER</small>
+                        <strong>Explore Opportunities</strong>
+                    </div>
+
+                    <b>
+                        <svg>
+                            <use href="#icon-arrow"></use>
+                        </svg>
+                    </b>
+
+                </a>
+
+            </div>
+
+        </section>
+
+    </main>
+
+
+    <!-- FOOTER -->
+
+    <footer>
+
+        <div class="footer-container">
+
+            <div class="footer-brand">
+
+                <a href="#home" class="logo">
+                    <span class="logo-mark">E</span>
+                    <span>Elevate<span>Labs</span></span>
+                </a>
+
+                <p>
+                    An informational project created as part of
+                    DevOps Internship Task 1.
+                </p>
+
+            </div>
+
+
+            <div class="footer-links">
+
+                <a href="#about">About</a>
+                <a href="#domains">Domains</a>
+                <a href="#internships">Internships</a>
+                <a href="#journey">Journey</a>
+                <a href="#contact">Resources</a>
+
+            </div>
+
+        </div>
+
+
+        <div class="footer-bottom">
+
+            <p>
+                © <span id="year"></span> Elevate Labs Information Portal.
+            </p>
+
+            <p>
+                Independent project • Not the official Elevate Labs website.
+            </p>
+
+        </div>
+
+    </footer>
+
+
+    <script src="script.js"></script>
+
+</body>
+</html>
+
